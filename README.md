@@ -26,7 +26,7 @@ Como parte de un desarrollo honesto y profesional, cabe destacar que:
 * Estructura modular en Python para facilitar futuras expansiones.
 * Diseño adaptable (Responsive Design).
 
-## ⚙️ Instalación y Uso
+## Instalación y Uso
 
 1.  **Clonar el repositorio:**
     ```bash
