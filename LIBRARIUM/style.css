@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #ffffff;
+    --text-primary: #1a1a1a;
+    --text-secondary: #666666;
+    --accent: #b08d57;
+    --border-color: #eeeeee;
+    --card-bg: #ffffff;
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header & Nav */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: var(--text-primary);
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--accent);
+    margin-left: -2px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    color: var(--text-primary);
+    border-left: 4px solid var(--accent);
+    padding-left: 25px;
+}
+
+/* Grid System (4 columns) */
+.grid-books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+/* Book Cards */
+.card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: var(--transition);
+    background: var(--card-bg);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-bottom: 25px;
+    transition: var(--transition);
+}
+
+.card:hover img {
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.card-info p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* Table Style */
+.table-container {
+    overflow-x: auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.book-table th {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid var(--text-primary);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.book-table td {
+    padding: 20px 15px;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.9rem;
+}
+
+.btn-table {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* Critique Detail Page */
+.critique-body {
+    max-width: 800px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.critique-body img {
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+.critique-body h1 {
+    border: none;
+    padding: 0;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.critique-body h3 {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.critique-body p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 60px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid var(--border-color);
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+    .grid-books { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 800px) {
+    .grid-books { grid-template-columns: repeat(2, 1fr); }
+    .container { width: 90%; }
+}
+@media (max-width: 500px) {
+    .grid-books { grid-template-columns: 1fr; }
+}

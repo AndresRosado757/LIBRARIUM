@@ -1,0 +1,227 @@
+[
+  {
+    "id": "cien_anos_soledad",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "isbn": ["9788439728368", "9780307474728"],
+    "genero": "Realismo Mágico",
+    "ranking": 1,
+    "critica": "Una obra que no solo narra la historia de los Buendía, sino que encapsula la esencia misma de Latinoamérica. Su prosa es hipnótica y su estructura circular es una proeza literaria sin igual."
+  },
+  {
+    "id": "1984_orwell",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "isbn": ["9788499890944", "9780451524935"],
+    "genero": "Distopía",
+    "ranking": 2,
+    "critica": "Aterradoramente profética. Orwell disecciona el control mental, la vigilancia masiva y la manipulación de la verdad con una precisión que hiela la sangre en un mundo de vigilancia total."
+  },
+  {
+    "id": "nombre_viento",
+    "titulo": "El nombre del viento",
+    "autor": "Patrick Rothfuss",
+    "isbn": ["9788401337208", "9780756404741"],
+    "genero": "Fantasía Épica",
+    "ranking": 3,
+    "critica": "La historia de Kvothe es una oda al arte de contar historias. Rothfuss escribe con una lírica que rara vez se ve en el género, haciendo que la magia se sienta como una ciencia y la música como el alma."
+  },
+  {
+    "id": "sombra_viento",
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "isbn": ["9788408043645", "9780143034902"],
+    "genero": "Misterio",
+    "ranking": 4,
+    "critica": "Un homenaje a los libros y al poder de la lectura. Ambientada en una Barcelona gótica, Zafón teje un misterio que te atrapa desde la primera página en el Cementerio de los Libros Olvidados."
+  },
+  {
+    "id": "siddhartha_hesse",
+    "titulo": "Siddhartha",
+    "autor": "Hermann Hesse",
+    "isbn": ["9788497593250", "9780553208849"],
+    "genero": "Filosofía",
+    "ranking": 5,
+    "critica": "Una búsqueda espiritual que resuena universalmente. A través del viaje de Siddhartha, Hesse nos enseña que la sabiduría debe ser experimentada por uno mismo."
+  },
+  {
+    "id": "rayuela_cortazar",
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "isbn": ["9788420471822", "9780394752846"],
+    "genero": "Experimental",
+    "ranking": 6,
+    "critica": "Una anti-novela que rompe todas las reglas. Cortázar invita al lector a ser cómplice, permitiendo múltiples rutas de lectura que exploran la soledad y el amor en París."
+  },
+  {
+    "id": "cronica_muerte",
+    "titulo": "Crónica de una muerte anunciada",
+    "autor": "Gabriel García Márquez",
+    "isbn": ["9788497592437", "9781400034710"],
+    "genero": "Novela corta",
+    "ranking": 7,
+    "critica": "Un ejercicio maestro de fatalismo. Aunque el final se conoce desde la primera línea, la disección de la responsabilidad colectiva mantiene una tensión insoportable."
+  },
+  {
+    "id": "pedro_paramo",
+    "titulo": "Pedro Páramo",
+    "autor": "Juan Rulfo",
+    "isbn": ["9788437604183", "9780802133908"],
+    "genero": "Realismo Mágico",
+    "ranking": 8,
+    "critica": "El murmullo de los muertos. Rulfo creó un universo donde el tiempo y el espacio se diluyen, influenciando a toda una generación con su brevedad y potencia visual."
+  },
+  {
+    "id": "el_alquimista",
+    "titulo": "El Alquimista",
+    "autor": "Paulo Coelho",
+    "isbn": ["9788408052852", "9780062315007"],
+    "genero": "Aventura",
+    "ranking": 9,
+    "critica": "Una fábula sobre seguir tu Leyenda Personal. Su mensaje optimista ha tocado a millones de personas, recordándonos que el universo conspira para que alcancemos nuestros sueños."
+  },
+  {
+    "id": "ficciones_borges",
+    "titulo": "Ficciones",
+    "autor": "Jorge Luis Borges",
+    "isbn": ["9788420633138", "9780802130303"],
+    "genero": "Relatos",
+    "ranking": 10,
+    "critica": "Borges es el bibliotecario del infinito. Sus cuentos son laberintos intelectuales que desafían nuestra percepción de la realidad, el tiempo y la memoria."
+  },
+  {
+    "id": "el_gran_gatsby",
+    "titulo": "El Gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "isbn": ["9788497936613", "9780743273565"],
+    "genero": "Clásico",
+    "ranking": 11,
+    "critica": "La autopsia del sueño americano. Una historia de amor, dinero y tragedia narrada con una elegancia que define la 'era del jazz'."
+  },
+  {
+    "id": "metamorfosis_kafka",
+    "titulo": "La Metamorfosis",
+    "autor": "Franz Kafka",
+    "isbn": ["9788420651361", "9780805210576"],
+    "genero": "Existencialismo",
+    "ranking": 12,
+    "critica": "La alienación humana llevada al extremo físico. Kafka convierte el despertar de Gregorio Samsa en una de las metáforas más potentes de la literatura moderna."
+  },
+  {
+    "id": "crimen_castigo",
+    "titulo": "Crimen y castigo",
+    "autor": "Fiódor Dostoyevski",
+    "isbn": ["9788467045352", "9780140449136"],
+    "genero": "Psicológico",
+    "ranking": 13,
+    "critica": "Una exploración profunda de la culpa y la redención. Dostoyevski nos sumerge en la mente atormentada de Raskólnikov en un viaje moral sin retorno."
+  },
+  {
+    "id": "don_quijote",
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "isbn": ["9788420412146", "9780060934347"],
+    "genero": "Clásico",
+    "ranking": 14,
+    "critica": "La primera novela moderna. Un equilibrio perfecto entre la locura idealista del caballero y el realismo terrenal de su escudero."
+  },
+  {
+    "id": "el_principito",
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "isbn": ["9788478887194", "9780156012195"],
+    "genero": "Fábula",
+    "ranking": 15,
+    "critica": "Lo esencial es invisible a los ojos. Un libro para niños que solo los adultos pueden comprender plenamente en su melancólica belleza."
+  },
+  {
+    "id": "orgullo_prejuicio",
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "isbn": ["9788491051329", "9780141439518"],
+    "genero": "Romance",
+    "ranking": 16,
+    "critica": "Una aguda crítica social disfrazada de comedia romántica. Austen utiliza la ironía para diseccionar las convenciones de clase y el matrimonio."
+  },
+  {
+    "id": "fahrenheit_451",
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "isbn": ["9788490321478", "9781451673319"],
+    "genero": "Ciencia Ficción",
+    "ranking": 17,
+    "critica": "Un mundo donde leer es un crimen. Bradbury nos advierte sobre el peligro de una sociedad que prefiere el entretenimiento vacío al pensamiento crítico."
+  },
+  {
+    "id": "ensayo_ceguera",
+    "titulo": "Ensayo sobre la ceguera",
+    "autor": "José Saramago",
+    "isbn": ["9788420442600", "9780156007757"],
+    "genero": "Ficción Contemporánea",
+    "ranking": 18,
+    "critica": "Una mirada cruda a la condición humana. Ante una epidemia de ceguera blanca, Saramago revela tanto lo más vil como lo más noble de nuestra especie."
+  },
+  {
+    "id": "la_odisea",
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "isbn": ["9788424924614", "9780140268867"],
+    "genero": "Épica",
+    "ranking": 19,
+    "critica": "El viaje fundacional de la literatura occidental. El regreso de Odiseo a Ítaca es el arquetipo de toda aventura y superación personal."
+  },
+  {
+    "id": "el_extranjero",
+    "titulo": "El extranjero",
+    "autor": "Albert Camus",
+    "isbn": ["9788420666006", "9780679720201"],
+    "genero": "Existencialismo",
+    "ranking": 20,
+    "critica": "La indiferencia ante la existencia. Mersault encarna el absurdo de la vida en una narrativa tan austera como impactante."
+  },
+  {
+    "id": "tokio_blues",
+    "titulo": "Tokio Blues (Norwegian Wood)",
+    "autor": "Haruki Murakami",
+    "isbn": ["9788483835425", "9780375704079"],
+    "genero": "Ficción",
+    "ranking": 21,
+    "critica": "Una nostálgica exploración de la juventud, el despertar sexual y el duelo. Murakami captura la soledad urbana con una sensibilidad única."
+  },
+  {
+    "id": "el_tunel",
+    "titulo": "El túnel",
+    "autor": "Ernesto Sabato",
+    "isbn": ["9788432205163", "9780141392738"],
+    "genero": "Existencialismo",
+    "ranking": 22,
+    "critica": "La obsesión convertida en arte. Sabato construye una confesión psicológica oscura sobre la incomunicación humana y los celos patológicos."
+  },
+  {
+    "id": "rebelion_granja",
+    "titulo": "Rebelión en la granja",
+    "autor": "George Orwell",
+    "isbn": ["9788499890951", "9780451526342"],
+    "genero": "Sátira Política",
+    "ranking": 23,
+    "critica": "Todos los animales son iguales, pero algunos son más iguales que otros. Una fábula mordaz sobre la corrupción del poder."
+  },
+  {
+    "id": "un_mundo_feliz",
+    "titulo": "Un mundo feliz",
+    "autor": "Aldous Huxley",
+    "isbn": ["9788497594257", "9780060850524"],
+    "genero": "Distopía",
+    "ranking": 24,
+    "critica": "La tiranía de la felicidad impuesta. Huxley imagina un futuro donde la tecnología y el condicionamiento eliminan el dolor, pero también la libertad."
+  },
+  {
+    "id": "el_aleph",
+    "titulo": "El Aleph",
+    "autor": "Jorge Luis Borges",
+    "isbn": ["9788420666693", "9780142437889"],
+    "genero": "Relatos",
+    "ranking": 25,
+    "critica": "El punto donde convergen todos los puntos del universo. Borges nos regala una colección de cuentos que son joyas de la metafísica y el lenguaje."
+  }
+]
