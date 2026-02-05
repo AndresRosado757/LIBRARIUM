@@ -30,11 +30,11 @@ Como parte de un desarrollo honesto y profesional, cabe destacar que:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/AndresRosado757/Librarium.git](https://github.com/AndresRosado757/Librarium.git)
+    git clone https://github.com/AndresRosado757/Librarium.git
     ```
 2.  **Instalar dependencias:**
     ```bash
-    pip install -r requirements.txt
+    pip install requests
     ```
 3.  **Ejecutar la aplicación:**
     ```bash
